@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -8,7 +7,7 @@ import { Trash2, Plus } from 'lucide-react';
 import TimePicker from './TimePicker';
 import { AttractionFormData, Schedule } from '@/types/attraction';
 import { v4 as uuidv4 } from 'uuid';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 interface AttractionFormProps {
   initialData?: AttractionFormData;

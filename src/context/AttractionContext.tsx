@@ -1,7 +1,7 @@
 
 import React, { createContext, useState, useContext, ReactNode } from 'react';
 import { Attraction, Schedule, AttractionFormData } from '../types/attraction';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 import { v4 as uuidv4 } from 'uuid';
 
 interface AttractionContextType {

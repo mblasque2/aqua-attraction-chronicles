@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useAttractions } from '@/context/AttractionContext';
@@ -6,7 +5,7 @@ import AttractionForm from '@/components/AttractionForm';
 import { AttractionFormData } from '@/types/attraction';
 import { ArrowLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 const EditAttraction: React.FC = () => {
   const { id } = useParams<{ id: string }>();
